@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="./js_files/sorting.js" defer></script>
+  </head>
+  <body>
+    <nav id="container">
+      <h1>Sorting Visualizer</h1>
+      <div id="buttons">
+        <button class="btn" id="but2">Bubble Sort</button>
+        <button class="btn" id="but3">Selection Sort</button>
+        <button class="btn" id="but4">Insertion Sort</button>
+        <button class="btn" id="but5">Quick Sort</button>
+        <button class="btn" id="but6">Merge Sort</button>
+      </div>
+    </nav>
+    <div id="par">
+      <div id="bars"></div>
+    </div>
+
+    <div id="part1">
+      <button id="but1">New Array</button>
+      <span id="ab">
+        <h5>Bars</h5>
+        <input id="arr_sz" type="range" min="30" max="95" step="1" value="60" />
+      </span>
+      <span id="abc">
+        <h5>Speed</h5>
+        <input
+          id="arr_sz2"
+          type="range"
+          min="20"
+          max="300"
+          stepDown="10"
+          value="60"
+        />
+      </span>
+    </div>
+  </body>
+</html>
